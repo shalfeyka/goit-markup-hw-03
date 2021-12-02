@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <!--Header-->
-     <header class="header">
+    <div class="container">
+        <!--Header-->
+       <header class="header">
         <a class="logo" href="./index.html">Web<span class="logo-half">Studio</span></a>
         <nav>
-        <ul class="nav-items">
-         <li><a href="" class="nav-items">Студия</a></li>
-         <li><a href="./portfolio.html" class="nav-items">Портфолио</a></li>
-         <li><a href="" class="nav-items">Контакты </a></li>
-        </ul>
-     </nav>
-     <!--Contacts-->
-     <ul class="contacts-link">
-         <li><a class="contacts-link-item"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a class="contacts-link-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
-     </ul>       
-    </header> 
+           <ul class="nav-items">
+                <li class="nav-items-list"><a href                     class="nav-items-link" >Студия</a></li>
+                <li class="nav-items-list"><a href="./portfolio.html"  class="nav-items-link">Портфолио</a></li>
+                <li class="nav-items-list"><a href=""                  class="nav-items-link">Контакты </a></li>
+           </ul>
+        </nav>
+        <!--Contacts-->
+        <ul class="contacts-link">
+            <li class="contacts-link-list"><a class="contacts-link-item"  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-link-list"><a class="contacts-link-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>       
+       </header> 
 <!--Main information-->
 <main>
     <section class="main-section"> 
@@ -36,7 +38,7 @@
         <li class="filter-item"><button class="filter-button" type="button">Дизайн</button></li>
         <li class="filter-item"><button class="filter-button" type="button">Маркетинг</button></li>
     </ul>
-    
+    <div class="gallery-container">
         <ul class="gallery"> 
             <li class="gallery-item" > <img src="./images/технокряк.jpg" alt="технокряк" width="370">
             <h2 class="gallery-title">Технокряк</h2>
@@ -75,7 +77,7 @@
             <p class="gallery-text">Приложение</p>
             </li> 
         </ul>
-   
+    </div>
 </section>
 <!--Footer-->
 <footer class="footer">
@@ -84,10 +86,11 @@
        <ul class="list-items-footer">
    <li> <a class="location" href="https://goo.gl/maps/zJ5b4M9oRAb7cDgC7">г. Киев, пр-т Леси Украинки, 26</a> </li>
    <li> <a class="contacts-footer" href="mailto:info@example.com">info@example.com</a> </li>
-   <li> <a  class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a> </li>
+   <li class="contacts-footer-list"> <a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a> </li>
        </ul>
    </adress>
    </footer>
 </main>
+</div>
 </body>
 </html>
