@@ -1,0 +1,220 @@
+:root {
+    --title-color: #FFFFFF;
+    --background-color:  #2F303A;
+    --hover-collor-text: #2196f3;
+    --background-team: #F5F4FA;
+    --footer-color-text: rgba(255, 255, 255, 0.6);
+    --color-text: #212121;
+    --color-text-header: #757575;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+/*Header*/
+.header {
+    background-color: var(--primary-color)
+}
+.logo {
+    color: var(--hover-collor-text);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+.logo-half {
+    color: var(--color-text);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+ /*Navigation*/
+ .nav-items {
+    color: var(--color-text);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    text-decoration: none;
+ }
+ .nav-items:hover {
+     color: var(--hover-collor-text)
+ }
+
+.contacts-link {
+    list-style-type: none;
+}
+.contacts-link-item {
+    color: var(--color-text-header);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contacts-link-item:hover {
+    color: #2196F3;
+ }
+ 
+/* Main information*/
+.main-section {
+     
+}
+.title-main {
+    color: var(--title-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.button {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    background: var(--hover-collor-text);
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.advantage-list {
+    list-style-type: none;
+}
+.advantage-title {
+    color: var(--color-text);
+    font-family: Roboto;
+    font-weight: 700
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.advantage-text {
+    color: var(--color-text-header);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Image information*/
+.work-list {
+    list-style-type: none;
+}
+.work-title {
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/*team*/
+.team-title {
+    color: var(--color-text);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+.team-list {
+    list-style-type: none;
+    
+}
+.team-title-name {
+    color: var(--color-text);
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team-text {
+    color: var(--color-text-header);
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/*footer*/
+.footer { 
+    background: var(--background-color)
+}
+.list-items-footer {
+    list-style-type: none;
+}
+.location {
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.location:hover {
+    color: var(--hover-collor-text);
+}
+.contacts-footer {
+    color: var(--footer-color-text);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.contacts-footer:hover {
+    color: var(--hover-collor-text); 
+}
+.logo-half-footer {
+    color: var(--title-color);
+}
+
+/*portfolio*/
+
+/*Main information*/
+.main-section {
+  background-color: var(--title-color);
+}
+.filter {
+    list-style-type: none;
+
+}
+.filter-button {
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: inherit;
+   
+}
+.filter-button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-collor-text);
+}
+.gallery {
+    list-style-type: none;
+}
+.gallery-title {
+    color: var(--color-text)
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.gallery-text {
+    color: var(--color-text-header);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.86;
+}
