@@ -135,7 +135,8 @@ p {
     background: var(--hover-collor-text);
     letter-spacing: 0.06em;
     cursor: pointer;
-    margin-left: 700px;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 294px;
 }
 .advantage {
@@ -236,11 +237,12 @@ p {
 
 /*footer*/
 .footer { 
-    background: var(--background-color)
+    background: var(--background-color);
+    padding-bottom: 60px;
+    padding-left: 215px;
+    padding-top: 111px;
 }
-.footer.container {
-    margin-top: 94px;
-}
+
 .list-items-footer {
     list-style-type: none;
     width: 231px;
