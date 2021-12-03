@@ -283,6 +283,9 @@ p {
 .filter {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 }
 .filter-button {
     color: var(--color-text);
@@ -298,6 +301,7 @@ p {
 .filter-item {
     align-items: center;
     margin-right: 8px;
+    font-family: inherit;
 }
 .filter-item:last-child {
     margin-right: 0;
@@ -309,6 +313,8 @@ p {
 }
 .gallery {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 .gallery-container{
     width: 1200px;
@@ -329,4 +335,8 @@ p {
     letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.86;
+}
+.gallery-item {
+    margin-bottom: 30px;
+    width: 370px;
 }
