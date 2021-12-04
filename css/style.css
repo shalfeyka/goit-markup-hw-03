@@ -194,9 +194,7 @@ p {
 }
 
 /* Image information*/
-.work-section {
-    padding-top: 0;
-}
+
 .work-list {
     list-style-type: none;
     display: flex;
