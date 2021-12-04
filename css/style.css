@@ -346,7 +346,7 @@ img {
 .filter-item {
     align-items: center;
     margin-right: 8px;
-    font-family: inherit;
+
 }
 .filter-item:last-child {
     margin-right: 0;
@@ -361,16 +361,14 @@ img {
     flex-wrap: wrap;
     margin-right: -30px;
     margin-bottom: -30px;
+
+
 }
 .gallery-container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 15px;
-    
+    padding: 20px 24px; 
 }
 .gallery-title {
-    color: var(--color-text)
+    color: var(--color-text);
     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 18px;
@@ -386,6 +384,4 @@ img {
      margin-right: 30px;
      margin-bottom: 30px;
 }
-.gallery-container {
-   
-}
+
