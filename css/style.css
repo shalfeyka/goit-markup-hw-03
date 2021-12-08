@@ -168,7 +168,6 @@ p {
     clip: rect(0 0 0 0);
 }
 .advantage-list {
-    margin-right: 30px;
     display: flex;
 }
 .advantage-title {
@@ -198,6 +197,9 @@ p {
 .work-list {
     list-style-type: none;
     display: flex;
+}
+.work-section {
+    padding: 0;
 }
 .work-title {
     color: var(--color-text);
@@ -359,8 +361,6 @@ img {
     flex-wrap: wrap;
     margin-right: -30px;
     margin-bottom: -30px;
-
-
 }
 .gallery-container{
     padding: 20px 24px; 
